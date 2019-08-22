@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Description>练习模块-业务逻辑层</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin</OutputPath>
+    <DocumentationFile>bin\netcoreapp2.1\ps.project.demo.BLL.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp2.1\ps.project.demo.BLL.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FrameWorkStd.Base.BLL" Version="1.1.3" />
+    <PackageReference Include="FrameWorkStd.Global" Version="1.1.7" />
+    <PackageReference Include="FrameWorkStd.Util" Version="1.1.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ps.project.demo.Enum\ps.project.demo.Enum.csproj" />
+    <ProjectReference Include="..\ps.project.demo.IBLL\ps.project.demo.IBLL.csproj" />
+    <ProjectReference Include="..\ps.project.demo.IDAL\ps.project.demo.IDAL.csproj" />
+    <ProjectReference Include="..\ps.project.demo.Model\ps.project.demo.Model.csproj" />
+  </ItemGroup>
+
+  
+
+</Project>

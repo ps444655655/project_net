@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ps.project.demo.Model</name>
+    </assembly>
+    <members>
+        <member name="T:ps.project.demo.Model.Login_info">
+            <summary>
+            用户登录
+            创建人:彭帅
+            创建时间:2019/8/22 星期四
+            </summary>
+        </member>
+        <member name="P:ps.project.demo.Model.Login_info.AccountNum">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:ps.project.demo.Model.Login_info.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+    </members>
+</doc>

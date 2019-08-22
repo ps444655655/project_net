@@ -1,0 +1,10 @@
+F:\open\ps.project.demo\ps.project.demo.Enum\bin\netcoreapp2.1\ps.project.demo.Enum.xml
+F:\open\ps.project.demo\ps.project.demo.Enum\bin\netcoreapp2.1\ps.project.demo.Enum.deps.json
+F:\open\ps.project.demo\ps.project.demo.Enum\bin\netcoreapp2.1\ps.project.demo.Enum.dll
+F:\open\ps.project.demo\ps.project.demo.Enum\bin\netcoreapp2.1\ps.project.demo.Enum.pdb
+F:\open\ps.project.demo\ps.project.demo.Enum\obj\Debug\netcoreapp2.1\ps.project.demo.Enum.csproj.CoreCompileInputs.cache
+F:\open\ps.project.demo\ps.project.demo.Enum\obj\Debug\netcoreapp2.1\ps.project.demo.Enum.AssemblyInfoInputs.cache
+F:\open\ps.project.demo\ps.project.demo.Enum\obj\Debug\netcoreapp2.1\ps.project.demo.Enum.AssemblyInfo.cs
+F:\open\ps.project.demo\ps.project.demo.Enum\obj\Debug\netcoreapp2.1\ps.project.demo.Enum.dll
+F:\open\ps.project.demo\ps.project.demo.Enum\obj\Debug\netcoreapp2.1\ps.project.demo.Enum.pdb
+F:\open\ps.project.demo\ps.project.demo.Enum\obj\Debug\netcoreapp2.1\ps.project.demo.Enum.csprojAssemblyReference.cache

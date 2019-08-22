@@ -1,0 +1,141 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "d33c4703843b6bd0f3d13cb4365f8a21e36ebc33"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "ps.project.demo.IDAL/1.0.0": {
+        "dependencies": {
+          "FrameWorkStd.Base.IDAL": "1.3.0",
+          "FrameWorkStd.Entity": "1.1.9",
+          "ps.project.demo.Model": "1.0.0"
+        },
+        "runtime": {
+          "ps.project.demo.IDAL.dll": {}
+        }
+      },
+      "FrameWorkStd.Base.IDAL/1.3.0": {
+        "dependencies": {
+          "FrameWorkStd.Base.Model": "1.1.0",
+          "FrameWorkStd.Entity.Database": "1.1.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FrameWorkStd.Base.IDAL.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.0.0"
+          }
+        }
+      },
+      "FrameWorkStd.Base.Model/1.1.0": {
+        "dependencies": {
+          "FrameWorkStd.Entity": "1.1.9",
+          "FrameWorkStd.Entity.Database": "1.1.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FrameWorkStd.Base.Model.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "FrameWorkStd.Entity/1.1.9": {
+        "dependencies": {
+          "FrameWorkStd.Enum": "1.0.0",
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FrameWorkStd.Entity.dll": {
+            "assemblyVersion": "1.1.9.0",
+            "fileVersion": "1.1.9.0"
+          }
+        }
+      },
+      "FrameWorkStd.Entity.Database/1.1.3": {
+        "dependencies": {
+          "FrameWorkStd.Entity": "1.1.9",
+          "FrameWorkStd.Enum": "1.0.0",
+          "System.ComponentModel.Annotations": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FrameWorkStd.Entity.Database.dll": {
+            "assemblyVersion": "1.1.3.0",
+            "fileVersion": "1.1.3.0"
+          }
+        }
+      },
+      "FrameWorkStd.Enum/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/FrameWorkStd.Enum.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.5.0": {},
+      "ps.project.demo.Model/1.0.0": {
+        "dependencies": {
+          "FrameWorkStd.Base.Model": "1.1.0"
+        },
+        "runtime": {
+          "ps.project.demo.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ps.project.demo.IDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FrameWorkStd.Base.IDAL/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8VN6cVn9eczLwczAs4R8vdR4OewfyF1hmQOpkRriT/JLZjzRQeAtYtKnQq5rkrsq/K6Q3iDqWauOTXHaskJzyA==",
+      "path": "frameworkstd.base.idal/1.3.0",
+      "hashPath": "frameworkstd.base.idal.1.3.0.nupkg.sha512"
+    },
+    "FrameWorkStd.Base.Model/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oPc71xn8tN7sWySmfn3sDrYYQkmkshdJWn7PqskAbGpJtMrphfsbIiarcYWQ3/aMuBCtFPnS9PboblDx02HmPA==",
+      "path": "frameworkstd.base.model/1.1.0",
+      "hashPath": "frameworkstd.base.model.1.1.0.nupkg.sha512"
+    },
+    "FrameWorkStd.Entity/1.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d3Ya391+U1c2vuJmuAMNJkc58mdHh8uOuHbTS4yynheYFzk12GYs4W4hS9mZTDs8qmIQgm4S5Lm7aZGYpcM8Yw==",
+      "path": "frameworkstd.entity/1.1.9",
+      "hashPath": "frameworkstd.entity.1.1.9.nupkg.sha512"
+    },
+    "FrameWorkStd.Entity.Database/1.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SouFyH+j6KashIpxSsXNRUep0Mk61Luc5xN0uEt8tgilvHfv6FZIVpKsGgYijz6Xi0ycEJGm2J78nHkkI8Wahg==",
+      "path": "frameworkstd.entity.database/1.1.3",
+      "hashPath": "frameworkstd.entity.database.1.1.3.nupkg.sha512"
+    },
+    "FrameWorkStd.Enum/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-osXr1SmFFu9bo6nY90bvPjAqFDfPNK2yQPkd477Ft5/seLWj2IqCh/hkipCMBs96ysJsSrQ3kekg7i+hT0r76g==",
+      "path": "frameworkstd.enum/1.0.0",
+      "hashPath": "frameworkstd.enum.1.0.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UxYQ3FGUOtzJ7LfSdnYSFd7+oEv6M8NgUatatIN2HxNtDdlcvFAf+VIq4Of9cDMJEJC0aSRv/x898RYhB4Yppg==",
+      "path": "system.componentmodel.annotations/4.5.0",
+      "hashPath": "system.componentmodel.annotations.4.5.0.nupkg.sha512"
+    },
+    "ps.project.demo.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,10 @@
+F:\open\ps.project.demo\ps.project.demo.Model\bin\netcoreapp2.1\ps.project.demo.Model.xml
+F:\open\ps.project.demo\ps.project.demo.Model\bin\netcoreapp2.1\ps.project.demo.Model.deps.json
+F:\open\ps.project.demo\ps.project.demo.Model\bin\netcoreapp2.1\ps.project.demo.Model.dll
+F:\open\ps.project.demo\ps.project.demo.Model\bin\netcoreapp2.1\ps.project.demo.Model.pdb
+F:\open\ps.project.demo\ps.project.demo.Model\obj\Debug\netcoreapp2.1\ps.project.demo.Model.csproj.CoreCompileInputs.cache
+F:\open\ps.project.demo\ps.project.demo.Model\obj\Debug\netcoreapp2.1\ps.project.demo.Model.AssemblyInfoInputs.cache
+F:\open\ps.project.demo\ps.project.demo.Model\obj\Debug\netcoreapp2.1\ps.project.demo.Model.AssemblyInfo.cs
+F:\open\ps.project.demo\ps.project.demo.Model\obj\Debug\netcoreapp2.1\ps.project.demo.Model.dll
+F:\open\ps.project.demo\ps.project.demo.Model\obj\Debug\netcoreapp2.1\ps.project.demo.Model.pdb
+F:\open\ps.project.demo\ps.project.demo.Model\obj\Debug\netcoreapp2.1\ps.project.demo.Model.csprojAssemblyReference.cache

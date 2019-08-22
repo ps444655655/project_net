@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ps.project.demo.IBLL</name>
+    </assembly>
+    <members>
+        <member name="T:ps.project.demo.IBLL.ILogin_infoBLL">
+            <summary>
+            用户登录 业务类
+            创建人:彭帅
+            创建时间:2019/8/22 星期四
+            </summary>
+        </member>
+        <member name="M:ps.project.demo.IBLL.ILogin_infoBLL.Insert(ps.project.demo.Model.Login_info)">
+            <summary>
+            插入对象
+            </summary>
+            <returns></returns>
+            <param name ="item"></param> 
+        </member>
+        <member name="M:ps.project.demo.IBLL.ILogin_infoBLL.InsertList(System.Collections.Generic.List{ps.project.demo.Model.Login_info})">
+            <summary>
+            插入List
+            </summary>
+            <returns></returns>
+            <param name ="insertList">要插入的List</param> 
+        </member>
+        <member name="M:ps.project.demo.IBLL.ILogin_infoBLL.Delete(ps.project.demo.Model.Login_info)">
+            <summary>
+            删除对象
+            </summary>
+            <returns></returns>
+            <param name ="item"></param> 
+        </member>
+        <member name="M:ps.project.demo.IBLL.ILogin_infoBLL.DeleteList(System.Collections.Generic.List{ps.project.demo.Model.Login_info})">
+            <summary>
+            删除List
+            </summary>
+            <returns></returns>
+            <param name ="deleteList">要删除的List</param> 
+        </member>
+        <member name="M:ps.project.demo.IBLL.ILogin_infoBLL.Update(ps.project.demo.Model.Login_info)">
+            <summary>
+            更新对象
+            </summary>
+            <returns></returns>
+            <param name ="item"></param> 
+        </member>
+        <member name="M:ps.project.demo.IBLL.ILogin_infoBLL.UpdateList(System.Collections.Generic.List{ps.project.demo.Model.Login_info})">
+            <summary>
+            更新List
+            </summary>
+            <returns></returns>
+            <param name ="updateList">要更新的List</param> 
+        </member>
+        <member name="M:ps.project.demo.IBLL.ILogin_infoBLL.SaveList(System.Collections.Generic.List{ps.project.demo.Model.Login_info},System.Collections.Generic.List{ps.project.demo.Model.Login_info},System.Collections.Generic.List{ps.project.demo.Model.Login_info})">
+            <summary>
+            保存List
+            </summary>
+            <returns></returns>
+            <param name ="insertList">要插入的List</param> 
+            <param name ="deleteList">要删除的List</param> 
+            <param name ="updateList">要更新的List</param> 
+        </member>
+        <member name="M:ps.project.demo.IBLL.ILogin_infoBLL.GetAllList">
+            <summary>
+            获取所有数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ps.project.demo.IBLL.ILogin_infoBLL.GetListByWhere(FrameWorkStd.Entity.Database.QueryClause)">
+            <summary>
+            自定义查询
+            </summary>
+            <returns></returns>
+            <param name ="queryClause">查询参数</param> 
+        </member>
+        <member name="M:ps.project.demo.IBLL.ILogin_infoBLL.GetCountByWhere(FrameWorkStd.Entity.Database.QueryClause)">
+            <summary>
+            自定义查询获取记录数(用于分页查询)
+            </summary>
+            <returns></returns>
+            <param name ="queryClause">查询参数</param> 
+        </member>
+        <member name="M:ps.project.demo.IBLL.ILogin_infoBLL.GetListPageByWhere(FrameWorkStd.Entity.Database.QueryClause)">
+            <summary>
+            自定义查询(分页)
+            </summary>
+            <returns></returns>
+            <param name ="queryClause">查询参数</param> 
+        </member>
+        <member name="M:ps.project.demo.IBLL.ILogin_infoBLL.GetItemByUuid(System.String)">
+            <summary>
+            根据 主键 获取单条数据
+            </summary>
+            <returns></returns>
+            <param name ="uuid">Uuid</param> 
+        </member>
+    </members>
+</doc>

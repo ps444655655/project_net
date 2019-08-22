@@ -1,0 +1,1 @@
+dotnet ./ps.project.demo.Service.dll --console
