@@ -1,0 +1,4 @@
+build/*.js
+config/*.js
+src/views/SyM/*
+src/views/SyU/*

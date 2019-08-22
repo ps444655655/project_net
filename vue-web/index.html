@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	  <script>
+    document.write('<s' + "cript type='text/javascript' src='static/config/index.js?" + Math.random() + "'></scr" + 'ipt>')
+  </script>
+    <title></title>
+  </head>
+  <body>
+    <div id="app">
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+<script>
+  window.onload = function() {
+    const iconFont = window.pageConfig['iconfont']
+    includeLinkStyle(iconFont)
+  }
+  // 动态添加样式文件
+  function includeLinkStyle(url) {
+    url.forEach(item => {
+      var link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.type = 'text/css'
+      link.href = item
+      document.getElementsByTagName('head')[0].appendChild(link)
+    })
+  }
+</script>
+</html>
